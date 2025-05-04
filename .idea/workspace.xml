@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e62a5661-ed42-4355-9e79-8bce08a02f13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generics/num1_basicGenericExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/randomStuff/arrays/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/randomStuff/arrays/num1_learningArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/randomStuff/num1_useOfValueOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/randomStuff/passByValueVsPassByReference/num1_SwapFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/randomStuff/passByValueVsPassByReference/num2_Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/randomStuff/passByValueVsPassByReference/num3_Example2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wrapperclasses/num1_autoBoxingUnBoxing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/randomStuff/arrays/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/randomStuff/arrays/notes.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

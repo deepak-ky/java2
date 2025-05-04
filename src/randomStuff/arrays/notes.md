@@ -16,6 +16,10 @@ In Arrays
 **Examples**
 
 Focus on Case 9
+<br>
+<br>
+<br>
+✅ Style 1: int[] numbers (Preferred Java Style)
 
 | # | Code                                               | Valid? | Notes                                                    |
 |---|:---------------------------------------------------|:------:| :------------------------------------------------------- |
@@ -26,6 +30,10 @@ Focus on Case 9
 | 5 | `int[] numbers = new int[]{1, 2, 3};`              |   ✅    | Declare and initialize using new with values            |
 | 6 | `int[] numbers; numbers = new int[]{1, 2, 3};`     |   ✅    | Declare first, then assign using new with values       |
 
+<br>
+<br>
+<br>
+✅ Style 2: int numbers[] (C-style Java syntax)
 | #  | Code                                           | Valid? | Notes                                                 |
 |----|:-----------------------------------------------|:------:| :---------------------------------------------------- |
 | 7  | `int numbers[] = new int[5];`                  |   ✅    | Declare and allocate in one line                      |
