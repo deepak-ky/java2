@@ -34,6 +34,7 @@ Focus on Case 9
 <br>
 <br>
 ✅ Style 2: int numbers[] (C-style Java syntax)
+
 | #  | Code                                           | Valid? | Notes                                                 |
 |----|:-----------------------------------------------|:------:| :---------------------------------------------------- |
 | 7  | `int numbers[] = new int[5];`                  |   ✅    | Declare and allocate in one line                      |
