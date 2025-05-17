@@ -1,4 +1,4 @@
-## Java Generics: List<Number> vs List<? extends Number> vs <T extends Number>
+## Java Generics: List<Number> vs List<? extends Number> vs < T extends Number>
 
 ### 1. If a function accepts `List<Number>`, then:
 
