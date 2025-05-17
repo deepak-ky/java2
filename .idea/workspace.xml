@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e62a5661-ed42-4355-9e79-8bce08a02f13" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/randomStuff/arrays/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/randomStuff/arrays/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/num2_genericMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/num3_upperBounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/num4_upperBoundedExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/oracle/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/oracle/BoxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/playground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/upperbounedWildcards/num1_basicUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/upperbounedWildcards/num2_genericMethodsVsWildcardsUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/upperbounedWildcards/num3_genericMethodsVsWildcardsUsage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/randomStuff/arrays/num2_passingArraysInFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/randomStuff/num2_casting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,39 +48,56 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BoxDemo.executor": "Run",
     "Application.num1.executor": "Debug",
     "Application.num100_playground.executor": "Run",
     "Application.num1_SwapFunc.executor": "Run",
     "Application.num1_autoBoxingUnBoxing.executor": "Run",
     "Application.num1_basicGenericExample.executor": "Run",
+    "Application.num1_basicUsage.executor": "Run",
     "Application.num1_learningArrays.executor": "Run",
     "Application.num1_tryCatchBlock.executor": "Run",
     "Application.num1_useOfValueOf.executor": "Run",
     "Application.num2_Example.executor": "Run",
+    "Application.num2_casting.executor": "Run",
+    "Application.num2_genericMethods.executor": "Run",
+    "Application.num2_passingArraysInFunc.executor": "Run",
     "Application.num2_tryCatchFinallyBlock.executor": "Run",
     "Application.num3_Example2.executor": "Run",
     "Application.num3_throwAndThrows.executor": "Run",
+    "Application.num3_upperBounded.executor": "Run",
+    "Application.num3_upperBoundedGenerics.executor": "Run",
     "Application.num4_throw.executor": "Debug",
+    "Application.num4_upperBoundedExample2.executor": "Run",
+    "Application.num5_upperBoundedWildcards.executor": "Run",
+    "Application.num6_upperBoundedWildcards2.executor": "Run",
+    "Application.num7_upperBoundedWildcards3.executor": "Run",
+    "Application.playground.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "I:/projects/java2",
+    "last_opened_file_path": "G:/java-new",
     "onboarding.tips.debug.path": "I:/projects/java2/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.keymap"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Markdown"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.num3_Example2">
-    <configuration name="num100_playground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionHandling.num100_playground" />
+  <component name="RunManager">
+    <configuration name="num1_basicUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.upperbounedWildcards.num1_basicUsage" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptionHandling.*" />
+          <option name="PATTERN" value="generics.upperbounedWildcards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="num1_SwapFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="randomStuff.passByValueVsPassByReference.num1_SwapFunc" />
+    <configuration name="num2_casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="randomStuff.num2_casting" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="randomStuff.passByValueVsPassByReference.*" />
+          <option name="PATTERN" value="randomStuff.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="num2_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="randomStuff.passByValueVsPassByReference.num2_Example" />
+    <configuration name="num2_genericMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.num2_genericMethods" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="randomStuff.passByValueVsPassByReference.*" />
+          <option name="PATTERN" value="generics.upperbounedWildcards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="num2_tryCatchFinallyBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionHandling.num2_tryCatchFinallyBlock" />
+    <configuration name="num3_genericMethodsVsWildcardsUsage2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.upperbounedWildcards.num3_genericMethodsVsWildcardsUsage2" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptionHandling.*" />
+          <option name="PATTERN" value="generics.upperbounedWildcards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="num3_Example2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="randomStuff.passByValueVsPassByReference.num3_Example2" />
+    <configuration name="num3_upperBounded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.num3_upperBounded" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="randomStuff.passByValueVsPassByReference.*" />
+          <option name="PATTERN" value="generics.upperbounedWildcards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.num3_Example2" />
-        <item itemvalue="Application.num2_Example" />
-        <item itemvalue="Application.num1_SwapFunc" />
-        <item itemvalue="Application.num2_tryCatchFinallyBlock" />
-        <item itemvalue="Application.num100_playground" />
+        <item itemvalue="Application.num3_genericMethodsVsWildcardsUsage2" />
+        <item itemvalue="Application.num3_upperBounded" />
+        <item itemvalue="Application.num1_basicUsage" />
+        <item itemvalue="Application.num2_casting" />
+        <item itemvalue="Application.num2_genericMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +266,34 @@
           <url>file://$PROJECT_DIR$/src/randomStuff/passByValueVsPassByReference/num3_Example2.java</url>
           <line>7</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/randomStuff/arrays/num2_passingArraysInFunc.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/randomStuff/arrays/num2_passingArraysInFunc.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/randomStuff/arrays/num2_passingArraysInFunc.java</url>
+          <line>3</line>
+          <properties class="randomStuff.arrays.num2_passingArraysInFunc" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/generics/num3_upperBounded.java</url>
+          <line>20</line>
+          <properties class="generics.num3_upperBoundedGenerics" method="getFormula">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
