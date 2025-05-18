@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e62a5661-ed42-4355-9e79-8bce08a02f13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generics/num2_genericMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/num3_upperBounded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/num4_upperBoundedExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/oracle/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/oracle/BoxDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/playground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/upperbounedWildcards/num1_basicUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/upperbounedWildcards/num2_genericMethodsVsWildcardsUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/upperbounedWildcards/num3_genericMethodsVsWildcardsUsage2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/randomStuff/arrays/num2_passingArraysInFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/randomStuff/num2_casting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/n2_wildcards/n2_unboundedWildcards/num1_basicUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/n2_wildcards/n3_lowerBoundedWildcards/num1_basicUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/n1_typeParameters/n1_Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/n1_typeParameters/n2_NumericBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/n1_typeParameters/n3_TypeParameterInArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/n1_typeParameters/n4_TypeParameterInLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/n2_wildcards/wildcards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/playground.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/playground.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/oracle/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/n1_oracleBasicExample/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/oracle/BoxDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/n1_oracleBasicExample/BoxDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/upperbounedWildcards/Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/n2_wildcards/n1_upperbounedWildcards/Note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/upperbounedWildcards/num1_basicUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/n2_wildcards/n1_upperbounedWildcards/num1_basicUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/upperbounedWildcards/num2_genericMethodsVsWildcardsUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/n2_wildcards/n1_upperbounedWildcards/num2_genericMethodsVsWildcardsUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/upperbounedWildcards/num3_genericMethodsVsWildcardsUsage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/n2_wildcards/n1_upperbounedWildcards/num3_genericMethodsVsWildcardsUsage2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.BoxDemo.executor": "Run",
+    "Application.generics.wildcards.n2_unboundedWildcards.num1_basicUsage.executor": "Run",
+    "Application.generics.wildcards.n3_lowerBoundedWildcards.num1_basicUsage.executor": "Run",
+    "Application.n1_Box.executor": "Run",
     "Application.num1.executor": "Debug",
     "Application.num100_playground.executor": "Run",
     "Application.num1_SwapFunc.executor": "Run",
@@ -73,6 +81,7 @@
     "Application.num6_upperBoundedWildcards2.executor": "Run",
     "Application.num7_upperBoundedWildcards3.executor": "Run",
     "Application.playground.executor": "Run",
+    "Application.wildcards.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -83,7 +92,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -91,39 +100,33 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\projects\java2\src\generics\upperbounedWildcards" />
+      <recent name="I:\projects\java2\src\generics\upperbounedWildcards\Note" />
+      <recent name="I:\projects\java2\src\generics\Note" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.wildcards">
+    <configuration name="n1_Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.n3_typeerasure.n1_typeParameters.n1_Box" />
+      <module name="java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.n3_typeerasure.n1_typeParameters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="num1_basicUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.upperbounedWildcards.num1_basicUsage" />
+      <option name="MAIN_CLASS_NAME" value="generics.n2_wildcards.n1_upperbounedWildcards.num1_basicUsage" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.upperbounedWildcards.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="num2_casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="randomStuff.num2_casting" />
-      <module name="java2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="randomStuff.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="num2_genericMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.num2_genericMethods" />
-      <module name="java2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.upperbounedWildcards.*" />
+          <option name="PATTERN" value="generics.n2_wildcards.n1_upperbounedWildcards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +135,11 @@
       </method>
     </configuration>
     <configuration name="num3_genericMethodsVsWildcardsUsage2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.upperbounedWildcards.num3_genericMethodsVsWildcardsUsage2" />
+      <option name="MAIN_CLASS_NAME" value="generics.n2_wildcards.n1_upperbounedWildcards.num3_genericMethodsVsWildcardsUsage2" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.upperbounedWildcards.*" />
+          <option name="PATTERN" value="generics.n2_wildcards.n1_upperbounedWildcards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,7 +152,20 @@
       <module name="java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.upperbounedWildcards.*" />
+          <option name="PATTERN" value="generics.n2_wildcards.n1_upperbounedWildcards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wildcards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.n3_typeerasure.n2_wildcards.wildcards" />
+      <module name="java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.n3_typeerasure.n2_wildcards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.wildcards" />
+        <item itemvalue="Application.n1_Box" />
+        <item itemvalue="Application.num1_basicUsage" />
         <item itemvalue="Application.num3_genericMethodsVsWildcardsUsage2" />
         <item itemvalue="Application.num3_upperBounded" />
-        <item itemvalue="Application.num1_basicUsage" />
-        <item itemvalue="Application.num2_casting" />
-        <item itemvalue="Application.num2_genericMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +204,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

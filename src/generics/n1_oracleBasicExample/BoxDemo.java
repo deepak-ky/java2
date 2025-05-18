@@ -1,4 +1,4 @@
-package generics.oracle;
+package generics.n1_oracleBasicExample;
 
 import java.util.ArrayList;
 import java.util.List;

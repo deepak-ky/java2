@@ -1,4 +1,4 @@
-package generics.upperbounedWildcards;
+package generics.n2_wildcards.n1_upperbounedWildcards;
 
 import java.util.ArrayList;
 import java.util.Arrays;

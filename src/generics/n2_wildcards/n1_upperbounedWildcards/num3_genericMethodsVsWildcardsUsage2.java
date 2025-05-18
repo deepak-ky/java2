@@ -1,4 +1,4 @@
-package generics.upperbounedWildcards;
+package generics.n2_wildcards.n1_upperbounedWildcards;
 
 public class num3_genericMethodsVsWildcardsUsage2 {
     public static void main(String[] args) {

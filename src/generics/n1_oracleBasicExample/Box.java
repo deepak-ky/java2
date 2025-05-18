@@ -1,4 +1,4 @@
-package generics.oracle;
+package generics.n1_oracleBasicExample;
 
 public class Box<T> {
     T t;
