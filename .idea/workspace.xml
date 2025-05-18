@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e62a5661-ed42-4355-9e79-8bce08a02f13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generics/n2_wildcards/n2_unboundedWildcards/num1_basicUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/n2_wildcards/n3_lowerBoundedWildcards/num1_basicUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/n1_typeParameters/n1_Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/n1_typeParameters/n2_NumericBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/n1_typeParameters/n3_TypeParameterInArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/n1_typeParameters/n4_TypeParameterInLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/n2_wildcards/wildcards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/playground.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/playground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/oracle/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/n1_oracleBasicExample/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/oracle/BoxDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/n1_oracleBasicExample/BoxDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/upperbounedWildcards/Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/n2_wildcards/n1_upperbounedWildcards/Note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/upperbounedWildcards/num1_basicUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/n2_wildcards/n1_upperbounedWildcards/num1_basicUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/upperbounedWildcards/num2_genericMethodsVsWildcardsUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/n2_wildcards/n1_upperbounedWildcards/num2_genericMethodsVsWildcardsUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/upperbounedWildcards/num3_genericMethodsVsWildcardsUsage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/n2_wildcards/n1_upperbounedWildcards/num3_genericMethodsVsWildcardsUsage2.java" afterDir="false" />
-    </list>
+    <list default="true" id="e62a5661-ed42-4355-9e79-8bce08a02f13" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
