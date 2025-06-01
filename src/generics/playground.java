@@ -1,5 +1,8 @@
 package generics;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class playground {
     public static void main(String[] args) {
         Object someObject = new Object();
@@ -7,5 +10,8 @@ public class playground {
         someObject = someInteger;
         System.out.println(someObject);
         System.out.println(someInteger);
+
+        /*List<int> list = new ArrayList<>();
+        list.add(17);*/
     }
 }
