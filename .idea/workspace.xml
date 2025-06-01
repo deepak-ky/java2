@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e62a5661-ed42-4355-9e79-8bce08a02f13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/collectionMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/list/Notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/list/listMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/n3_typeerasure/autoBoxingTypeErasure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collectionFramework/list/ListTypes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collectionFramework/list/num1_listMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collectionFramework/list/num2_Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/n3_typeerasure/playground.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/n3_typeerasure/playground.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/playground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/playground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collectionFramework/list/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/list/Notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collectionFramework/list/listMethods.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,11 @@
     <option name="SCOPE" value="All" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk-21/lib/src.zip!/java.base/java/lang/IllegalStateException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk-21/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
     <setting file="jar://C:/Program Files/Java/jdk-21/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk-21/lib/src.zip!/java.base/java/util/ListIterator.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk-21/lib/src.zip!/java.base/java/util/Vector.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,6 +73,7 @@
     "Application.num1_tryCatchBlock.executor": "Run",
     "Application.num1_useOfValueOf.executor": "Run",
     "Application.num2_Example.executor": "Run",
+    "Application.num2_Stack.executor": "Run",
     "Application.num2_casting.executor": "Run",
     "Application.num2_genericMethods.executor": "Run",
     "Application.num2_passingArraysInFunc.executor": "Run",
@@ -96,7 +99,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -112,7 +115,7 @@
       <recent name="I:\projects\java2\src\generics\Note" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.listMethods">
+  <component name="RunManager">
     <configuration name="collectionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collectionFramework.collectionMethods" />
       <module name="java2" />
@@ -126,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="listMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectionFramework.list.listMethods" />
+    <configuration name="n1_Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.n3_typeerasure.n1_typeParameters.n1_Box" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectionFramework.list.*" />
+          <option name="PATTERN" value="generics.n3_typeerasure.n1_typeParameters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="n1_Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.n3_typeerasure.n1_typeParameters.n1_Box" />
+    <configuration name="num1_listMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionFramework.list.num1_listMethods" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.n3_typeerasure.n1_typeParameters.*" />
+          <option name="PATTERN" value="collectionFramework.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,7 +183,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.listMethods" />
+        <item itemvalue="Application.num1_listMethods" />
         <item itemvalue="Application.collectionMethods" />
         <item itemvalue="Application.playground" />
         <item itemvalue="Application.wildcards" />
@@ -373,15 +376,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://C:/Program Files/Java/jdk-21/lib/src.zip!/java.base/java/util/List.java</url>
-          <line>290</line>
-          <properties class="java.util.List" method="remove">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
