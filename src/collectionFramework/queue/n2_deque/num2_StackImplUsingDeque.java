@@ -1,10 +1,11 @@
-package collectionFramework.queue.num2_deque;
+package collectionFramework.queue.n2_deque;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class num2_StackImplUsingDeque {
     public static void main(String[] args) {
+
         Deque<Integer> dqStack = new ArrayDeque<>();
 
         /*1. Stack Implementation*/

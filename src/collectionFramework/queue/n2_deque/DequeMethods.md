@@ -24,3 +24,8 @@
 | **_Functions to imitate stack behaviour_** |                  |                                                                                     |                                                   |                           |
 | `void`                                     | `push(E e)`      | Pushes an element onto the stack (front of deque). Equivalent to `addFirst(E e)`      | ✅ Yes – `IllegalStateException` if full           | Deque                     |  
 | `E`                                        | `pop()`          | Pops and returns the element from the stack (front). Equivalent to `removeFirst()` | ✅ Yes – `NoSuchElementException` if empty         | Deque                     |
+
+### Points
+1. When using Stack via ArrayDeque use `push()`, `pop()` and `peek()`.
+2. When using Queue via ArrayDeque use `offer()`, `poll()` and `peek()`.
+3. If you want to work with a stack in Java, it's recommended to use the `ArrayDeque` class instead of the `Stack` class. This is because `Stack` extends `Vector`, which is synchronized and thread-safe, leading to slower performance. In contrast, `ArrayDeque` offers faster, unsynchronized operations and is generally more efficient for stack usage in single-threaded scenarios.

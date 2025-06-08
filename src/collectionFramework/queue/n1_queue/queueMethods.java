@@ -1,4 +1,4 @@
-package collectionFramework.queue.num1_queue;
+package collectionFramework.queue.n1_queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
