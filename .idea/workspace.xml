@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e62a5661-ed42-4355-9e79-8bce08a02f13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/num2_StackImplUsingDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/num3_QueueImplUsingDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/queue/playground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num1_queue/queueMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num1_queue/queueMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/DequeMethods.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/DequeMethods.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/dequeMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/num1_dequeMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num3_StackQueueUsingDeque.java" beforeDir="false" />
-    </list>
+    <list default="true" id="e62a5661-ed42-4355-9e79-8bce08a02f13" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +105,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -131,7 +122,7 @@
       <recent name="I:\projects\java2\src\generics\upperbounedWildcards" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.num1_queueMethods">
     <configuration name="collectionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collectionFramework.collectionMethods" />
       <module name="java2" />
@@ -199,9 +190,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.num1_queueMethods" />
         <item itemvalue="Application.num2_StackImplUsingDeque" />
         <item itemvalue="Application.num1_dequeMethods" />
-        <item itemvalue="Application.num1_queueMethods" />
         <item itemvalue="Application.num1_listMethods" />
         <item itemvalue="Application.collectionMethods" />
       </list>

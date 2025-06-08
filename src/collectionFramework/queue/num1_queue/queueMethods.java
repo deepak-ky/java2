@@ -69,6 +69,7 @@ public class queueMethods {
 
         System.out.println("-");
 
+        /*removing object from a empty queue*/
         boolean is100Removed = false;
         try {
             is100Removed = q2.remove(Integer.valueOf(100));
