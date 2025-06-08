@@ -53,5 +53,15 @@ public class num2_Stack {
         var positionOf35FromTop = stack1.search(35);
         System.out.println("positionOf35FromTop : " + positionOf35FromTop);
 
+        printStackUsingWhileLoop(stack1);
+        System.out.println("stack1 : " + stack1);
+    }
+
+    static void printStackUsingWhileLoop(Stack<?> s) {
+        System.out.println("Printing elements of stack using while loop");
+        while (!s.empty()) {
+            System.out.print(s.pop() + ", ");
+        }
+        System.out.println();
     }
 }
