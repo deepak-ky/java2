@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e62a5661-ed42-4355-9e79-8bce08a02f13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num3_StackQueueUsingDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/num2_StackImplUsingDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/num3_QueueImplUsingDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collectionFramework/queue/playground.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/CapacityException.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num1_queue/CapacityException.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/DequeMethods.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/DequeMethods.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/QueueMethods.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num1_queue/QueueMethods.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/dequeMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/dequeMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/queueMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num1_queue/queueMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num1_queue/queueMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num1_queue/queueMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/DequeMethods.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/DequeMethods.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/dequeMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/num1_dequeMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num3_StackQueueUsingDeque.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,6 +61,7 @@
     "Application.BoxDemo.executor": "Run",
     "Application.autoBoxingTypeErasure.executor": "Run",
     "Application.collectionFramework.playground.executor": "Run",
+    "Application.collectionFramework.queue.playground.executor": "Run",
     "Application.collectionFrameworkMethods.executor": "Run",
     "Application.collectionMethods.executor": "Run",
     "Application.dequeMethods.executor": "Run",
@@ -75,19 +77,25 @@
     "Application.num1_autoBoxingUnBoxing.executor": "Run",
     "Application.num1_basicGenericExample.executor": "Run",
     "Application.num1_basicUsage.executor": "Run",
+    "Application.num1_dequeMethods.executor": "Run",
     "Application.num1_learningArrays.executor": "Run",
     "Application.num1_tryCatchBlock.executor": "Run",
     "Application.num1_useOfValueOf.executor": "Run",
     "Application.num2_Example.executor": "Run",
     "Application.num2_Stack.executor": "Run",
+    "Application.num2_StackImplUsingDeque.executor": "Run",
     "Application.num2_casting.executor": "Run",
     "Application.num2_genericMethods.executor": "Run",
     "Application.num2_passingArraysInFunc.executor": "Run",
     "Application.num2_tryCatchFinallyBlock.executor": "Run",
     "Application.num3_Example2.executor": "Run",
+    "Application.num3_QueueImplUsingDeque.executor": "Run",
+    "Application.num3_StackImplUsingDeque.executor": "Run",
+    "Application.num3_StackQueueUsingDeque.executor": "Run",
     "Application.num3_throwAndThrows.executor": "Run",
     "Application.num3_upperBounded.executor": "Run",
     "Application.num3_upperBoundedGenerics.executor": "Run",
+    "Application.num4_QueueImplUsingDeque.executor": "Run",
     "Application.num4_throw.executor": "Debug",
     "Application.num4_upperBoundedExample2.executor": "Run",
     "Application.num5_upperBoundedWildcards.executor": "Run",
@@ -137,6 +145,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="num1_dequeMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionFramework.queue.num2_deque.num1_dequeMethods" />
+      <module name="java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collectionFramework.queue.num2_deque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="num1_listMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collectionFramework.list.num1_listMethods" />
       <module name="java2" />
@@ -150,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="playground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.playground" />
+    <configuration name="num2_StackImplUsingDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionFramework.queue.num2_deque.num2_StackImplUsingDeque" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="collectionFramework.queue.num2_deque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,26 +197,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wildcards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.n3_typeerasure.n2_wildcards.wildcards" />
-      <module name="java2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.n3_typeerasure.n2_wildcards.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.num2_StackImplUsingDeque" />
+        <item itemvalue="Application.num1_dequeMethods" />
         <item itemvalue="Application.num1_queueMethods" />
         <item itemvalue="Application.num1_listMethods" />
         <item itemvalue="Application.collectionMethods" />
-        <item itemvalue="Application.playground" />
-        <item itemvalue="Application.wildcards" />
       </list>
     </recent_temporary>
   </component>

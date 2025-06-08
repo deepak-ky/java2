@@ -35,11 +35,11 @@ public class queueMethods {
         var is96Removed = q.remove(Integer.valueOf(96));
         var is97Removed = q.remove(97);
         var is98Removed = q.remove(98);
-        System.out.println("elementRemoved1 : " + elementRemoved1);
-        System.out.println("elementRemoved2 : " + elementRemoved2);
-        System.out.println("is96Removed : " + is96Removed);
-        System.out.println("is97Removed : " + is97Removed);
-        System.out.println("is98Removed : " + is98Removed);
+        System.out.println("elementRemoved1 : q.remove() : " + elementRemoved1);
+        System.out.println("elementRemoved2 : q.poll() : " + elementRemoved2);
+        System.out.println("is96Removed : q.remove(Integer.valueOf(96)) : " + is96Removed);
+        System.out.println("is97Removed : q.remove(97) : " + is97Removed);
+        System.out.println("is98Removed : q.remove(98) : " + is98Removed);
         printQueue(q);
 
         Queue<Integer> q2 = new LinkedList<>();
@@ -51,7 +51,7 @@ public class queueMethods {
             System.out.println("trying to remove an element from q2 using q2.remove(), caught exception : " + e);
         } finally {
             /*cannot use q2.remove() here because it throws exception*/
-            System.out.println("elementRemoved3 : " + elementRemoved3);
+            System.out.println("elementRemoved3 : q2.remove() : " + elementRemoved3);
         }
 
         System.out.println("-");
@@ -62,9 +62,9 @@ public class queueMethods {
         } catch (Exception e) {
             System.out.println("trying to remove an element from q2 using q2.poll(), caught exception : " + e);
         } finally {
-            System.out.println("elementRemoved4 : " + elementRemoved4);
+            System.out.println("elementRemoved4 : q2.poll() : " + elementRemoved4);
             /*can use q2.poll() here because it does not throw exception*/
-            System.out.println("elementRemoved4 : " + q2.poll());
+            System.out.println("elementRemoved4 : q2.poll() : " + q2.poll());
         }
 
         System.out.println("-");
@@ -83,20 +83,21 @@ public class queueMethods {
 
         System.out.println("q : " + q);
         var elementAtTop_1 = q.element();
-        System.out.println("elementAtTop_1 : " + elementAtTop_1);
+        System.out.println("elementAtTop_1 : q.element() : " + elementAtTop_1);
 
         var elementAtTop_2 = q.peek();
-        System.out.println("elementAtTop_2 : " + elementAtTop_2);
+        System.out.println("elementAtTop_2 : q.peek() : " + elementAtTop_2);
 
         System.out.println("-");
-        
+
+        System.out.println("q2 : " + q2);
         Integer elementAtTop_3 = null;
         try {
             elementAtTop_3 = q2.element();
         } catch (Exception e) {
             System.out.println("exception caught while q2.element(), exception : " + e);
         } finally {
-            System.out.println("elementAtTop_3 : " + elementAtTop_3);
+            System.out.println("elementAtTop_3 : q2.element() : " + elementAtTop_3);
         }
 
         System.out.println("-");
@@ -107,11 +108,11 @@ public class queueMethods {
         } catch (Exception e) {
             System.out.println("exception caught while q2.peek(), exception : " + e);
         } finally {
-            System.out.println("elementAtTop_4 : " + elementAtTop_4);
-            System.out.println("elementAtTop_4 : " + q2.peek());
+            System.out.println("elementAtTop_4 : q2.peek() : " + elementAtTop_4);
+            System.out.println("elementAtTop_4 : q2.peek() : " + q2.peek());
         }
 
-        printQueue(q);
+        System.out.println("----");
 
         printQueueUsingWhileLoop(q);
         printQueue(q);

@@ -3,7 +3,7 @@ package collectionFramework.queue.num2_deque;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class dequeMethods {
+public class num1_dequeMethods {
     static Deque<Integer> deque = new ArrayDeque<>();
     public static void main(String[] args) {
         /*1. Add Elements*/
@@ -82,8 +82,6 @@ public class dequeMethods {
         } catch (Exception e) {
             System.out.println("caught exception while using peek functions : " + e);
         }
-
-
 
     }
 
