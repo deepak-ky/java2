@@ -1,4 +1,4 @@
-package collectionFramework.queue;
+package collectionFramework.queue.num2_deque;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
