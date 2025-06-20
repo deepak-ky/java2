@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e62a5661-ed42-4355-9e79-8bce08a02f13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/queue/n3_priorityQueue/num1_priorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collectionFramework/list/playground.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num1_queue/CapacityException.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/n1_queue/CapacityException.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num1_queue/QueueMethods.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/n1_queue/QueueMethods.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num1_queue/queueMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/n1_queue/queueMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/DequeMethods.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/n2_deque/DequeMethods.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/num1_dequeMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/n2_deque/num1_dequeMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/num2_StackImplUsingDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/n2_deque/num2_StackImplUsingDeque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/num2_deque/num3_QueueImplUsingDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/n2_deque/num3_QueueImplUsingDeque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/queue/playground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/queue/playground.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,75 +49,75 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BoxDemo.executor": "Run",
-    "Application.autoBoxingTypeErasure.executor": "Run",
-    "Application.collectionFramework.playground.executor": "Run",
-    "Application.collectionFramework.queue.playground.executor": "Run",
-    "Application.collectionFrameworkMethods.executor": "Run",
-    "Application.collectionMethods.executor": "Run",
-    "Application.dequeMethods.executor": "Run",
-    "Application.generics.n3_typeerasure.playground.executor": "Run",
-    "Application.generics.wildcards.n2_unboundedWildcards.num1_basicUsage.executor": "Run",
-    "Application.generics.wildcards.n3_lowerBoundedWildcards.num1_basicUsage.executor": "Run",
-    "Application.listMethods.executor": "Run",
-    "Application.n1_Box.executor": "Run",
-    "Application.needForCollectionFramework.executor": "Run",
-    "Application.num1.executor": "Debug",
-    "Application.num100_playground.executor": "Run",
-    "Application.num1_SwapFunc.executor": "Run",
-    "Application.num1_autoBoxingUnBoxing.executor": "Run",
-    "Application.num1_basicGenericExample.executor": "Run",
-    "Application.num1_basicUsage.executor": "Run",
-    "Application.num1_dequeMethods.executor": "Run",
-    "Application.num1_learningArrays.executor": "Run",
-    "Application.num1_priorityQueue.executor": "Run",
-    "Application.num1_queueMethods.executor": "Run",
-    "Application.num1_tryCatchBlock.executor": "Run",
-    "Application.num1_useOfValueOf.executor": "Run",
-    "Application.num2_Example.executor": "Run",
-    "Application.num2_Stack.executor": "Run",
-    "Application.num2_StackImplUsingDeque.executor": "Run",
-    "Application.num2_casting.executor": "Run",
-    "Application.num2_genericMethods.executor": "Run",
-    "Application.num2_passingArraysInFunc.executor": "Run",
-    "Application.num2_tryCatchFinallyBlock.executor": "Run",
-    "Application.num3_Example2.executor": "Run",
-    "Application.num3_QueueImplUsingDeque.executor": "Run",
-    "Application.num3_StackImplUsingDeque.executor": "Run",
-    "Application.num3_StackQueueUsingDeque.executor": "Run",
-    "Application.num3_throwAndThrows.executor": "Run",
-    "Application.num3_upperBounded.executor": "Run",
-    "Application.num3_upperBoundedGenerics.executor": "Run",
-    "Application.num4_QueueImplUsingDeque.executor": "Run",
-    "Application.num4_throw.executor": "Debug",
-    "Application.num4_upperBoundedExample2.executor": "Run",
-    "Application.num5_upperBoundedWildcards.executor": "Run",
-    "Application.num6_upperBoundedWildcards2.executor": "Run",
-    "Application.num7_upperBoundedWildcards3.executor": "Run",
-    "Application.playground.executor": "Run",
-    "Application.queueMethods.executor": "Run",
-    "Application.wildcards.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "G:/java-new",
-    "onboarding.tips.debug.path": "I:/projects/java2/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BoxDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.autoBoxingTypeErasure.executor&quot;: &quot;Run&quot;,
+    &quot;Application.collectionFramework.playground.executor&quot;: &quot;Run&quot;,
+    &quot;Application.collectionFramework.queue.playground.executor&quot;: &quot;Run&quot;,
+    &quot;Application.collectionFrameworkMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.collectionMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dequeMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.generics.n3_typeerasure.playground.executor&quot;: &quot;Run&quot;,
+    &quot;Application.generics.wildcards.n2_unboundedWildcards.num1_basicUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.generics.wildcards.n3_lowerBoundedWildcards.num1_basicUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.listMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.n1_Box.executor&quot;: &quot;Run&quot;,
+    &quot;Application.needForCollectionFramework.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.num100_playground.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num1_SwapFunc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num1_autoBoxingUnBoxing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num1_basicGenericExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num1_basicUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num1_dequeMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num1_learningArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num1_priorityQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num1_queueMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num1_tryCatchBlock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num1_useOfValueOf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num2_Example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num2_Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num2_StackImplUsingDeque.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num2_casting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num2_genericMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num2_passingArraysInFunc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num2_tryCatchFinallyBlock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num3_Example2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num3_QueueImplUsingDeque.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num3_StackImplUsingDeque.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num3_StackQueueUsingDeque.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num3_throwAndThrows.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num3_upperBounded.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num3_upperBoundedGenerics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num4_QueueImplUsingDeque.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num4_throw.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.num4_upperBoundedExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num5_upperBoundedWildcards.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num6_upperBoundedWildcards2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.num7_upperBoundedWildcards3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.playground.executor&quot;: &quot;Run&quot;,
+    &quot;Application.queueMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.wildcards.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/java-new&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;I:/projects/java2/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Markdown"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="I:\projects\java2\src\collectionFramework\queue\num2_deque" />
@@ -203,11 +195,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.num1_queueMethods" />
+        <item itemvalue="Application.collectionMethods" />
         <item itemvalue="Application.num2_StackImplUsingDeque" />
         <item itemvalue="Application.num1_dequeMethods" />
         <item itemvalue="Application.num1_listMethods" />
-        <item itemvalue="Application.collectionMethods" />
       </list>
     </recent_temporary>
   </component>
