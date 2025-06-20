@@ -96,7 +96,7 @@ public class random1_stringsSortAndCompare {
     * ArrayList<String> al3 = new ArrayList<>(al2);
 
     * This constructor creates a new ArrayList and copies all elements from al2 into al3.
-    Since String is immutable, this is functionally equivalent to the deepcopy method.
+    Since String is immutable, this is functionally equivalent to deepcopy method.
     */
     private static ArrayList<String> deepcopy(ArrayList<String> al) {
         ArrayList<String> temp = new ArrayList<>();
