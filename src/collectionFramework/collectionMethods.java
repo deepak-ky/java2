@@ -121,6 +121,7 @@ public class collectionMethods {
 
         printCollections(collection1, collection2);
 
+        System.out.println("Collection to Array : ");
         Object arr[] = collection5.toArray();
         for(Object o : arr) {
             System.out.print((Integer) o + ",");
