@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e62a5661-ed42-4355-9e79-8bce08a02f13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/list/Notes2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/set/Notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/set/num1_hashset_linkedhashset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/set/num2_hashset_of_custom_objects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/set/num3_treeset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectionFramework/set/num4_treeset_of_custom_objects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collectionFramework/set/num5_enumset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionFramework/collectionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/collectionMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collectionFramework/set/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/set/Notes.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +102,7 @@
     "Application.num4_throw.executor": "Debug",
     "Application.num4_treeset_of_custom_objects.executor": "Run",
     "Application.num4_upperBoundedExample2.executor": "Run",
+    "Application.num5_enumset.executor": "Run",
     "Application.num5_upperBoundedWildcards.executor": "Run",
     "Application.num6_upperBoundedWildcards2.executor": "Run",
     "Application.num7_upperBoundedWildcards3.executor": "Run",

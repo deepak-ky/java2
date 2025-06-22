@@ -16,13 +16,14 @@
 | HashSet         | O(1)*    | O(1)*    | O(1)*    | No               | HashMap                                                     |
 | LinkedHashSet   | O(1)*    | O(1)*    | O(1)*    | Yes (insertion)  | LinkedHashMap(HashMap + Linked List)                        |
 | TreeSet         | O(log n) | O(log n) | O(log n) | Yes (sorted)     | TreeMap(Red-Black Tree (self-balancing binary search tree)) |
+
 *O(1) on average / amortized 
 (assuming well-distributed hash codes and occasional internal resizing)
 
 > **⚠️ Note on HashSet and LinkedHashSet Time Complexity:**
 > For both HashSet and LinkedHashSet, operations like add(), remove(), and contains() are typically O(1) on average due to the underlying HashMap.
 However, in worst-case scenarios—such as when many elements hash to the same bucket (poorly distributed hashCode() values)—performance can degrade to O(n), as linear or tree traversal within the bucket may be required.
-LinkedHashSet additionally maintains insertion order via a linked list, but this has negligible performance impact for individual operations.Note on LinkedHashSet Time Complexity:**
+LinkedHashSet additionally maintains insertion order via a linked list, but this has negligible performance impact for individual operations.**
 ---
 
 ## Key Differences
