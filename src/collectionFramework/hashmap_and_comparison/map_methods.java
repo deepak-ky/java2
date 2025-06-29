@@ -2,7 +2,7 @@ package collectionFramework.hashmap_and_comparison;
 
 import java.util.*;
 
-public class hashmap {
+public class map_methods {
     public static void main(String[] args) {
         /*hashMap       -> unordered_map
         * linkedHashMap -> NA
