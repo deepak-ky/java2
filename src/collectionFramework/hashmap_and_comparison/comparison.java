@@ -13,7 +13,7 @@ public class comparison {
         ArrayList<Student> arrayList = new ArrayList<>(Arrays.asList(s4,s3,s2,s1));
         
         System.out.println("arrayList :                 " + arrayList);
-        /*Student needs to implement comparable interface*/
+        /*Requires Student to implement the Comparable interface*/
         Collections.sort(arrayList);
         System.out.println("sorted on roll_no :         " + arrayList);
 
@@ -34,7 +34,7 @@ public class comparison {
         System.out.println("sorted on reverse roll_no : " + arrayList);
 
         /*using lambda*/
-        /*RE COMMENDED METHOD*/
+        /*MY RECOMMENDED METHOD*/
         arrayList.sort((student1, student2) -> {
             if(student1.getBranchCode().getBranchRank() == student2.getBranchCode().getBranchRank()) {
                 return student1.getRollNo().compareTo(student2.getRollNo());
@@ -54,16 +54,16 @@ public class comparison {
         arrayList.sort(Comparator.comparing(Student::getBranchRank));
         System.out.println("sorted on branch_rank :     " + arrayList);
 
-        /*lambda expression with thenComparing*/
+        /*lambda expression with thenComparing, chainedComparator*/
         arrayList.sort(Comparator.comparing(Student::getBranchRank).thenComparing(Student::getName));
         System.out.println("sorted on branch_rank :     " + arrayList);
 
-        /*Comparators can also be defined like this*/
+        /*Comparators can be stored in a value and resued*/
         Comparator<Student> byRanking = (Student student1, Student student2) -> Integer.compare(student1.getBranchRank(), student2.getBranchRank());
         Collections.sort(arrayList, byRanking);
         System.out.println("sorted on branch_rank :     " + arrayList);
 
-        /*works without <Student> too => Comparator byRollNo*/
+        /*works without <Student> too => Comparator byRollNo, typeInference works*/
         Comparator<Student> byRollNo = Comparator.comparing(Student::getRollNo);
         arrayList.sort(byRollNo);
         System.out.println("sorted on roll_no :         " + arrayList);
